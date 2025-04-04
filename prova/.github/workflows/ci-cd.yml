@@ -34,6 +34,6 @@ jobs:
       env:
         RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
       run: |
-        curl -X POST "url" \
+        curl -X POST "https://two025-1a-t10-celine.onrender.com/" \
         -H "Authorization: Bearer $RENDER_API_KEY" \
         -d '{}'
