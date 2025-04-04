@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TIjMXfcNfR4=",
+  "dgSpecHash": "nZcVmJvFrAo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Inteli\\Documents\\GitHub\\p\\CiaDeTalentos.Dashboard\\CiaDeTalentos.Dashboard.csproj",
+  "projectFilePath": "C:\\Users\\Inteli\\Documents\\GitHub\\prova_M9\\prova\\CiaDeTalentos.Dashboard\\CiaDeTalentos.Dashboard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Inteli\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\Inteli\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.2\\microsoft.entityframeworkcore.9.0.2.nupkg.sha512",

@@ -726,11 +726,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Inteli\\Documents\\GitHub\\p\\CiaDeTalentos.Dashboard\\CiaDeTalentos.Dashboard.csproj",
+      "projectUniqueName": "C:\\Users\\Inteli\\Documents\\GitHub\\prova_M9\\prova\\CiaDeTalentos.Dashboard\\CiaDeTalentos.Dashboard.csproj",
       "projectName": "CiaDeTalentos.Dashboard",
-      "projectPath": "C:\\Users\\Inteli\\Documents\\GitHub\\p\\CiaDeTalentos.Dashboard\\CiaDeTalentos.Dashboard.csproj",
+      "projectPath": "C:\\Users\\Inteli\\Documents\\GitHub\\prova_M9\\prova\\CiaDeTalentos.Dashboard\\CiaDeTalentos.Dashboard.csproj",
       "packagesPath": "C:\\Users\\Inteli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Inteli\\Documents\\GitHub\\p\\CiaDeTalentos.Dashboard\\obj\\",
+      "outputPath": "C:\\Users\\Inteli\\Documents\\GitHub\\prova_M9\\prova\\CiaDeTalentos.Dashboard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
