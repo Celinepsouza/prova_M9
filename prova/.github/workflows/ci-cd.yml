@@ -1,0 +1,39 @@
+name: .NET WASM CI/CD Pipeline
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "8.0"
+
+      - name: Debug - Mostrar estrutura de diretórios
+  run: |
+    pwd
+    ls -la
+
+        
+    - name: Restore dependencies
+      run: cd src\Teste; dotnet restore
+
+    - name: Build project
+      run: dotnet publish -c Release -o build
+
+    - name: Deploy to Render
+      env:
+        RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
+      run: |
+        curl -X POST "url" \
+        -H "Authorization: Bearer $RENDER_API_KEY" \
+        -d '{}'
